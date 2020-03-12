@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuisnesTheme</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="site">
+    <header>
+         <nav class="main-nav">
+            <div class="logo">
+                <img src="1x/Logo.png" alt="">
+            </div>
+            <div class="hamburger" onclick="showNav()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div> 
+            </div>
+        <ul id="links">
+            <li><a class="button" href="#">HOME</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">PRICING TABLE</a></li>
+            <li><a href="#">HOW IT WORK</a></li>
+            <li><a href="#">HAPPY CLIENTS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul></nav>
+        <div class="main-title"> 
+        <h1>BOOST UP YOUR LOCAL BUSINESS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur expedita libero dolor excepturi labore. Nam.</p>
+        </div>
+        <form action="#">
+            <input type="text" class="fa"  placeholder="&#xf007;    Full Name">
+            <input type="text" class="fa" placeholder="&#xf0e0;    Email Address">
+            <input type="text" class="fa" placeholder="&#xf879;    Phone Number">
+            <input type="submit" class="button" id="submit" value="REQUEST A QUOTE">
+        </form>
+    </header>
+    <div class="carousel_container">
+        <img src="1x/Vector Smart Object Image.png" alt="#">
+        
+        <div class="carousel">
+           <div class="slide active" id="one"><img src="1x/Rectangle 4 + Layer 24.png" alt=""></div>
+           <div class="slide" id="two"><img src="1x/unnamed.jpg" alt="#"></div>
+           <div class="slide" id="three"><img src="1x/nature.jpg" alt="#"></div>
+        </div>
+        <div class="nav">
+        <label class="dot clicked" id="dot1" for="i1"><span><i class="fas fa-circle"></i></span><input type="radio" name="images" class="radio" id="i1" checked onchange="slideShow()"></label>
+        <label class="dot" id="dot2" for="i2"><span><i class="fas fa-circle"></i></span><input type="radio" name="images" class="radio" id="i2" onchange="slideShow()" ></label>
+        <label class="dot" id="dot3" for="i3"><span><i class="fas fa-circle"></i></span><input type="radio" name="images" class="radio" id="i3" onchange="slideShow()" ></label>
+        </div>
+    </div>
+    <section class="section-one">
+       <div class="section-title">
+       <h1>OUR SERVICES</h1>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+       </div>
+       <div class="container">
+           <div class="box">
+            <i class="far fa-clock fa-3x"></i>
+            <div class="content">
+               <h2>FONT-AWESOME ICONS</h2>
+               <br>
+               <p>Lorem i psum dolor sit amet consectetur, adipisicing elit. 
+                Voluptas, aspernatur explicabo. In illum animi aperiam esse beatae at debitis repellat saepe, 
+                nostrum molestias maxime aliquam nam non nemo id voluptatum?</p>
+           </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-cog fa-3x"></i>
+            <div class="content">
+               <h2>FULLY RESPONSIVE DESIGN</h2>
+               <br>
+               <p>Lorem i psum dolor sit amet consectetur, adipisicing elit. 
+                Voluptas, aspernatur explicabo. In illum animi aperiam esse beatae at debitis repellat saepe, 
+                nostrum molestias maxime aliquam nam non nemo id voluptatum?</p>
+           </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap fa-3x"></i>
+            <div class="content">
+               <h2>WORKING CONTACT FORM</h2>
+               <br>
+               <p>Lorem i psum dolor sit amet consectetur, adipisicing elit. 
+                Voluptas, aspernatur explicabo. In illum animi aperiam esse beatae at debitis repellat saepe, 
+                nostrum molestias maxime aliquam nam non nemo id voluptatum?</p>
+           </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-rocket fa-3x"></i>
+            <div class="content">
+               <h2>RETINA READY ICONS HERE</h2>
+               <br>
+               <p>Lorem i psum dolor sit amet consectetur, adipisicing elit. 
+                Voluptas, aspernatur explicabo. In illum animi aperiam esse beatae at debitis repellat saepe, 
+                nostrum molestias maxime aliquam nam non nemo id voluptatum?</p>
+           </div>
+        </div>
+        <div class="box">
+            <i class="fab fa-renren fa-3x"></i>
+            <div class="content">
+               <h2>FRIENDLY CODE</h2>
+               <br>
+               <p>Lorem i psum dolor sit amet consectetur, adipisicing elit. 
+                Voluptas, aspernatur explicabo. In illum animi aperiam esse beatae at debitis repellat saepe, 
+                nostrum molestias maxime aliquam nam non nemo id voluptatum?</p>
+           </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-dollar-sign fa-3x"></i>
+            <div class="content">
+               <h2>FLAT TRENDY LANDING PAGE DESIGN</h2>
+               <br>
+               <p>Lorem i psum dolor sit amet consectetur, adipisicing elit. 
+                Voluptas, aspernatur explicabo. In illum animi aperiam esse beatae at debitis repellat saepe, 
+                nostrum molestias maxime aliquam nam non nemo id voluptatum?</p>
+           </div>
+        </div>
+       </div>   
+    </section>
+    <section class="section-three">
+        <h2>CHOOS YOUR PRICE</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, vel!</p>
+        <div class="container-prices">
+            <div class="plan">
+               <div class="plan-title underline">
+               <h3>BASIC PLAN</h3><br>
+                <h1><sup>$</sup>22</h1>
+                <p>PER MONTH</p><br>
+            </div>
+            <p class="underline">
+                1 ACCOUNT
+            </p>
+            <p class="underline">
+                8 HOUR SUPPORT
+            </p>
+            <p>
+                CUSTOM CLOUD SERVICES
+            </p><br>
+            <a href="#" class="button">
+                GET STARTED
+            </a>
+        </div>
+        <div class="plan blue">
+            <div class="plan-title underline">
+            <h3>PREMIUM PPLAN</h3><br>
+             <h1><sup>$</sup>42</h1>
+             <p>PER MONTH</p><br>
+         </div>
+         <p class="underline">
+             2 ACCOUNT
+         </p>
+         <p class="underline">
+             100MB STORAGE
+         </p>
+         <p>
+             CUSTOM CLOUD SERVICES
+         </p><br>
+         <a href="#" class="button">
+             GET STARTED
+         </a>
+     </div>
+     <div class="plan">
+        <div class="plan-title underline">
+        <h3>GOLD PLAN</h3><br>
+         <h1><sup>$</sup>22</h1>
+         <p>PER MONTH</p><br>
+     </div>
+     <p class="underline">
+         8 ACCOUNT
+     </p>
+     <p class="underline">
+         24 HOUR SUPPORT
+     </p>
+     <p>
+         CUSTOM CLOUD SERVICES
+     </p><br>
+     <a href="#" class="button">
+         GET STARTED
+     </a>
+ </div>
+        </div>
+    </section>
+    <section class="section-two">
+        <div class="image2">
+            <img src="1x/Rectangle 5 copy + Layer 27.png" alt="#">
+        </div>
+        <div class="about">
+            <h2>ABOUT US</h2>
+            <br><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum at accusantium non totam ratione,
+             in quod sint ipsum dolorem repellendus, tenetur dolor nesciunt consequuntur tempore nam incidunt ad
+             officiis quasi impedit doloribus ut a? Rerum sapiente sit laudantium! Esse magnam, dolorum nam vero,
+             quia eius vitae placeat pariatur a deserunt adipisci debitis maiores tenetur aspernatur minus officiis
+             incidunt unde facilis.
+            </p><br><br>
+            <a href="#" class="button darker">READ MORE</a>
+        </div>
+    </section>
+    <section class="section-four">
+        <h1>HOW IT WORKS</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.
+        </p>
+        <div class="container-steps">
+            <div class="step">
+                <i class="fas fa-headphones fa-3x"></i>
+                <h3>STEP 1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Repellendus quasi ea vero beatae cum temporibus inventore officia.
+                </p>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-angle-right fa-5x"></i>
+            </div>
+            <div class="step">
+                <i class="fas fa-unlock fa-3x"></i>
+                <h3>STEP 2</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Repellendus quasi ea vero beatae cum temporibus inventore officia.
+                </p>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-angle-right fa-5x"></i>
+            </div>
+            <div class="step">
+                <i class="fas fa-cloud-upload-alt fa-3x"></i>
+                <h3>STEP 3</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Repellendus quasi ea vero beatae cum temporibus inventore officia.
+                </p>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-angle-right fa-5x"></i>
+            </div>
+            <div class="step">
+                <i class="fas fa-thumbs-up fa-3x opacity"></i>
+                <h3>STEP 4</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Repellendus quasi ea vero beatae cum temporibus inventore officia.
+                </p>
+            </div>
+        </div>
+        <a href="#" class="button">GET START NOW</a>
+    </section>
+    <section class="section-five">
+        <h1>HAPPY CLIENTS</h1>
+        <p>We explain who is using our bisness solutions</p>
+        <div class="container-comments">
+            <div class="box-comment">
+                <img src="1x/Ellipse 2 + Layer 26.png" alt="">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Temporibus ab necessitatibus aspernatur labore non. Sit optio rerum, reprehenderit,
+                obcaecati vero facere praesentium cumque nihil pariatur saepe ratione repudiandae quod 
+                dolorum qui sunt distinctio, velit excepturi maxime voluptatibus. Voluptas, veniam unde!"
+                <br><br>
+                <span>DARWIN MICHILE, </span>PROJECT MANAGER
+               </p>
+            </div>
+            <div class="box-comment">
+                <img src="1x/Ellipse 2 + Layer 22.png" alt="">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Temporibus ab necessitatibus aspernatur labore non. Sit optio rerum, reprehenderit,
+                obcaecati vero facere praesentium cumque nihil pariatur saepe ratione repudiandae quod 
+                dolorum qui sunt distinctio, velit excepturi maxime voluptatibus. Voluptas, veniam unde!"
+                <br><br>
+                <span>MADAM ELISABATH, </span>CREATIVE DIRECTOR
+               </p>
+            </div>
+            <div class="box-comment">
+                <img src="1x/Ellipse 2 + Layer 25.png" alt="">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Temporibus ab necessitatibus aspernatur labore non. Sit optio rerum, reprehenderit,
+                obcaecati vero facere praesentium cumque nihil pariatur saepe ratione repudiandae quod 
+                dolorum qui sunt distinctio, velit excepturi maxime voluptatibus. Voluptas, veniam unde!"
+                <br><br>
+                <span>CLIPS ARTER, </span>LIPSUM DIRECTER
+               </p>
+            </div>
+            <div class="box-comment">
+                <img src="1x/Ellipse 2 + Layer 23.png" alt="">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Temporibus ab necessitatibus aspernatur labore non. Sit optio rerum, reprehenderit,
+                obcaecati vero facere praesentium cumque nihil pariatur saepe ratione repudiandae quod 
+                dolorum qui sunt distinctio, velit excepturi maxime voluptatibus. Voluptas, veniam unde!"
+                <br><br>
+                <span>ZAM CRISTAFR, </span>MANAGER
+               </p>
+            </div>
+        </div>
+    </section>
+    <section class="section-six">
+        <h1>NEWSLETTER</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <form action="#" method="POST">
+            <input type="text" class="fa"  placeholder="&#xf007;  Name">
+            <input type="text"  class="fa" placeholder="&#xf0e0;  Email Address" >
+            <input type="submit" class="button" value="SUBSCRIBE NOW">
+        </form>
+        <div class="map">
+            <img src="1x/Layer 13 Image.png" alt="">
+            <div class="contact">
+                <h2>ADDRESS</h2>
+                <p> Business street <br>
+                    Second north section <br>
+                    Bavani nagar, 88769 <br>
+                    Call: +987-9976-999 <br>
+                </p>
+                <p class="info">info@businessface.com</p>
+            </div>
+            <div class="mark"><img src="1x/Logo.png" alt="">
+            </div>
+        </div>
+        <nav class="bottom-nav">
+            <a href="#">HOME</a>
+            <a href="#">SERVICE</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">PRICING TABLE</a>
+            <a href="#">HOW IT WORK</a>
+            <a href="#">HAPPY CLIENTS</a>
+            <a href="#">CONTACT US</a>
+        </nav> 
+        <i class="fas fa-phone-alt"></i>
+        <span class="phone">+987 9976 999</span>
+        <div class="social">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </section>
+    <footer>
+       <p> All contents &copy; copyright 2014 Business Theme. All rights reserved</p>
+    </footer>
+    </div>
+</body>
+</html>

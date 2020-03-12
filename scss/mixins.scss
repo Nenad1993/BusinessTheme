@@ -1,0 +1,28 @@
+@import 'vars';
+@mixin main {
+	*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: $main_font;
+	h1{
+		font-family: $h1_font;
+		font-weight: bold;
+	}
+	}
+}
+@mixin laptop {
+	@media only screen and (max-width:1250px) {
+		@content;
+	}
+}
+@mixin tablet {
+	@media only screen and (max-width:950px){
+		@content;
+	}
+	}
+@mixin phone {
+	@media only screen and (max-width:650px){
+		@content;
+	}
+	}
